@@ -19,6 +19,7 @@ def set_bg_hack_url():
           .stApp {{
               background: url("https://szmagro.hu/images/s3.jpg");
               background-size: cover
+	      background-color: "#ffffff"
           }}
           </style>
           """,
