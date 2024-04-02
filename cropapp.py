@@ -71,7 +71,7 @@ if choice=="Login":
             create_usertable()
             if Email=='a@a.com' and Password=='123':
                 st.success("Logged In as {}".format("Admin"))
-                Email=st.text_input("Delete Email")
+                 Email=st.text_input("Delete Email")
                 if st.button('Delete'):
                     delete_user(Email)
                 user_result = view_all_users()
