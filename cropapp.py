@@ -17,7 +17,7 @@ def set_bg_hack_url():
           f"""
           <style>
           .stApp {{
-              background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Ffarming-background&psig=AOvVaw3kFraodIloUHMurgnTkwM5&ust=1712145596385000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjDz_DBvaOFAxXYbGwGHf1xD3IQjRx6BAgAEBQ");
+              background: url("https://w0.peakpx.com/wallpaper/54/12/HD-wallpaper-wheat-crops-landscape-nature-senary.jpg");
               background-size: cover
           }}
           </style>
