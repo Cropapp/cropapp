@@ -74,17 +74,16 @@ if choice=="Login":
 		    Email=st.text_input("Delete Email")
 		    if st.button('Delete'):
                     delete_user(Email)
-                user_result = view_all_users()
-                clean_db = pd.DataFrame(user_result,columns=["FirstName","LastName","Mobile","City","Email","password","Cpassword"])
-                st.dataframe(clean_db)
-            else:
-                result = login_user(Email,Password)
-                if result:
-                    st.success("Logged In as {}".format(Email))
-                    menu2 = ["K-Nearest Neighbors", "SVM",
-                             "Decision Tree", "Random Forest",
+		    user_result = view_all_users()
+		    clean_db = pd.DataFrame(user_result,columns=["FirstName","LastName","Mobile","City","Email","password","Cpassword"])
+		    st.dataframe(clean_db)
+	    else:
+		    result = login_user(Email,Password)
+		    if result:
+			    st.success("Logged In as {}".format(Email))
+			    menu2 = ["K-Nearest Neighbors", "SVM","Decision Tree", "Random Forest",
                              "Naive Bayes","ExtraTreesClassifier","VotingClassifier"]
-                    choice2 = st.selectbox("Select ML",menu2)
+			    choice2 = st.selectbox("Select ML",menu2)
 
                     N=float(st.slider('N Value', 0.0, 140.0))
                     P=float(st.slider('P Value', 5.0, 145.0))
