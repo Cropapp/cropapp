@@ -4,7 +4,7 @@ import sqlite3
 import pickle
 import bz2
 import pandas as pd
-st.set_page_config(page_title="Crop Recommendation", page_icon="fevicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Crop Recommendation", page_icon="fevicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None,textcolor="#ffffff")
 def set_bg_hack_url():
     '''
     A function to unpack an image from url and set as bg.
