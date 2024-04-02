@@ -5,6 +5,26 @@ import pickle
 import bz2
 import pandas as pd
 st.set_page_config(page_title="Crop Recommendation", page_icon="fevicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
+def set_bg_hack_url():
+    '''
+    A function to unpack an image from url and set as bg.
+    Returns
+    -------
+    The background.
+    '''
+        
+    st.markdown(
+          f"""
+          <style>
+          .stApp {{
+              background: url("https://szmagro.hu/images/s3.jpg");
+              background-size: cover
+          }}
+          </style>
+          """,
+          unsafe_allow_html=True
+      )
+set_bg_hack_url()
 
 conn = sqlite3.connect('data.db')
 c = conn.cursor()
