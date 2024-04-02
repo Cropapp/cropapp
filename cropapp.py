@@ -17,7 +17,7 @@ def set_bg_hack_url():
           f"""
           <style>
           .stApp {{
-              background: url("https://www.stridelysolutions.com/wp-content/uploads/2022/01/Machine-learning-for-Precision-Agriculture_Website.jpg");
+              background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR82t3RoPGnXBc4LmsTl9wtwF36Lw_cJP_J4hloexHRHA&s");
               background-size: cover
           }}
           </style>
