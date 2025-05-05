@@ -17,6 +17,7 @@ def set_bg_hack_url():
           f"""
           <style>
           .stApp {{
+	      backgroud-image(https://www.google.com/imgres?q=background%20images%20for%20crop%20recommendation%20website&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fyoung-plant-cyber-display-technological-260nw-2172873109.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fgreen-crop-background&docid=kiIrI_vltKv3TM&tbnid=okfIJVQ-XiNhfM&vet=12ahUKEwjPvq-o24yNAxXbODQIHQqONekQM3oFCIEBEAA..i&w=615&h=280&hcb=2&ved=2ahUKEwjPvq-o24yNAxXbODQIHQqONekQM3oFCIEBEAA)
               background-size: cover
           }}
           </style>
